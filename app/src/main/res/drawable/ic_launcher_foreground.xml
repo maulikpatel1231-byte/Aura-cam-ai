@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Camera Outer Body Silhouette -->
+    <path
+        android:pathData="M35,34 L43,34 L46,30 L62,30 L65,34 L73,34 C76.3,34 79,36.7 79,40 L79,70 C79,73.3 76.3,76 73,76 L35,76 C31.7,76 29,73.3 29,70 L29,40 C29,36.7 31.7,34 35,34 Z"
+        android:strokeWidth="2.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#15FFFFFF" />
+
+    <!-- Lens Outer Ring with Gradient -->
+    <path
+        android:pathData="M54,41 A15,15 0 1 0 54,71 A15,15 0 1 0 54,41 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="39"
+                android:startY="41"
+                android:endX="69"
+                android:endY="71"
+                android:type="linear">
+                <item android:color="#38BDF8" android:offset="0.0" />
+                <item android:color="#818CF8" android:offset="0.5" />
+                <item android:color="#C084FC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Lens Inner Aperture Core -->
+    <path
+        android:pathData="M54,48 A8,8 0 1 0 54,64 A8,8 0 1 0 54,48 Z"
+        android:fillColor="#0B0F19" />
+
+    <!-- Lens Reflection Highlight -->
+    <path
+        android:pathData="M51,51 A3,3 0 1 0 51,57 A3,3 0 1 0 51,51 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Top Right AI Sparkle Star -->
+    <path
+        android:pathData="M75,27 C75,29.5 76.5,31.5 79,31.5 C76.5,31.5 75,33.5 75,36 C75,33.5 73.5,31.5 71,31.5 C73.5,31.5 75,29.5 75,27 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="71"
+                android:startY="27"
+                android:endX="79"
+                android:endY="36"
+                android:type="linear">
+                <item android:color="#FDE047" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Small Secondary AI Sparkle -->
+    <path
+        android:pathData="M81,42 C81,43.2 81.8,44.2 83,44.2 C81.8,44.2 81,45.2 81,46.4 C81,45.2 80.2,44.2 79,44.2 C80.2,44.2 81,43.2 81,42 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Camera Flash Small Dot -->
+    <path
+        android:pathData="M70,39 A2,2 0 1 0 70,43 A2,2 0 1 0 70,39 Z"
+        android:fillColor="#E2E8F0" />
+</vector>

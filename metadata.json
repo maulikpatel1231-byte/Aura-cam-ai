@@ -1,0 +1,6 @@
+{
+  "name": "AuraCam AI",
+  "description": "Smart AI Camera with instant auto-enhance, ChatGPT/Gemini visual color grading, and pro filter presets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
